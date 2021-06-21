@@ -1,0 +1,47 @@
+@import "setup";
+@import "variables";
+@import "mixins";
+
+body {
+  background: $junoRed;
+  color: blue;
+  background-image: url(../style/);
+}
+
+h2 {
+  @include headerFont(50px, purple);
+}
+
+h3 {
+  @include headerFont(20px, green);
+}
+
+p {
+  color: $junoRed;
+}
+
+// nav {
+//   background: skyblue;
+// }
+
+// nav ul {
+//   padding: 0;
+//   margin: 0;
+// }
+
+// nav ul li a {
+//   color: white;
+// }
+
+nav {
+  background: skyblue;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
+}
